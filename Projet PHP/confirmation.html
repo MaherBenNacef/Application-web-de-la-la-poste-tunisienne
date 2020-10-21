@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<h1>Entrer votre mot de passe pour confirmer la suppression</h1>
+<br><br>
+
+<script language="Javascript">
+          function verif() 
+          {
+            if(formulaire.cin.value == '')
+            {
+               alert('Merci de remplir le cin !');
+               return false;
+            }
+            
+            if(formulaire.pwd.value == '')
+            {
+               alert('Merci de remplir le mot de passe !');
+               return false;
+            }
+          }
+
+        </script>
+
+
+				 <form class="form-inline" action="supp.php" method="post" name="formulaire" onSubmit="return verif()">
+				 	<div class="form-group">
+                        <label  for="cin">CIN: </label><br>
+                        <input name="cin" type="text" class="form-control" id="cin" placeholder="CIN">
+                      </div><br>
+ 					<div class="form-group">
+                        <label  for="pwd">Mot de passe: </label><br>
+                        <input name="pwd" type="password" class="form-control" id="pwd" placeholder="Mot De Passe">
+                    </div>
+                    <br>
+                   <button type="submit" >Supprimer</button>
+                   <button type="reset" >Annuler</button>
+               </form>
+</body>
+</html>

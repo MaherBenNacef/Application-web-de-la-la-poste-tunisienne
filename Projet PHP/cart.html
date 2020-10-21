@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+ <HTML>
+     <head>
+     <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ma page d'acceuil</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+         <!-- BootStrap Core -->
+       <link href="css/bootstrap.css" rel="stylesheet">
+           <!-- Custom style -->
+           <link href="css/main.css" rel="stylesheet">
+           <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+     <body>
+         <!-- Entete -->  
+           <div class="container">
+               <div class="row">
+     <div class="col-lg-12">
+         <img src="img/cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="120" height="130">
+      <div></div>
+     </div> 
+           
+  <!-- Navbar -->  
+  <nav class="navbar navbar-inverse">
+  <ul class="nav navbar-nav">
+      <li><a href="./index.html"><b>Acceuil</b></a></li>
+     <li><a href="./Produit.html"><b>Les cartes e-DINAR</b></a></li>
+     <li><a href="./page.html"><b>Western Union</b></a></li>
+     <li><a href="./ajouter.html"><b>Ajouter un client</b></a></li>
+     <li><a href="./modif.html"><b>Modifier</b></a></li>
+     <li><a href="./aff.html"><b>Affichage</b></a></li>
+     <li><a href="./recherche.html"><b>Recherche</b></a></li>
+     <li><a href="./suppression.html"><b>Suppression</b></a></li>
+     <li><a href="./cart.html"><b>Créer votre carte</b></a></li>
+     <li><a href="./hjgolf.html"><b>Apropos</b></a></li>
+
+     
+
+  </ul>
+
+</nav>
+  <BR>
+  
+        <!--Container--> 
+         <script language="Javascript">
+          function verif() 
+          {
+            
+            if(formulaire.nom.value == '')
+            {
+               alert('Merci de remplir le nom !');
+               return false;
+            }
+            if(formulaire.prenom.value == '')
+            {
+               alert('Merci de remplir le prenom !');
+               return false;
+            }
+            
+          }
+
+        </script>
+
+                
+                <div class="col-sm-12">
+                    <H1 align="center"><u><b>Créer votre carte</b></u></H1>
+                    <form align="center" class="form-inline" action="image.php" method="POST" name="formulaire" onSubmit="return verif()">
+                        
+                    
+                      <div class="form-group">
+                        <label  for="nom">Nom: </label><br>
+                        <input name="nom" type="text" class="form-control" id="nom" placeholder="Nom" >
+                      </div><br>
+
+                      <div class="form-group">
+                        <label  for="prenom">Prenom: </label><br>
+                        <input name="prenom" type="text" class="form-control" id="prenom" placeholder="Prenom" >
+                      </div><br>
+
+                       
+                      
+                     <br>
+                      <button type="submit" class="btn btn-success btn-md" >Créer</button>
+                       <button type="reset" class="btn btn-danger btn-md">Annuler</button>
+                    </form>
+                </div>
+           </div>
+       </div>
+            
+                       
+          
+              <!-- Script Javascript --> 
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>    
+          <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>        <script src="js/plugins.js"></script>        <script src="js/main.js">
+              
+          </script>  <script src="js/bootstrap.js">
+              
+          </script>
+      
+          
+   <br><br> 
+ <br><br> 
+ <br><br> 
+ <br><br>  <br><br> 
+ <br><br>  <br><br> 
+ <br><br>  <br><br> 
+ <br><br> <br>
+ 
+        
+          
+          
+   <!-- Bas de page --> 
+        <!-- Footer -->
+  <div class="footer text-center">
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12">
+      <div></div>
+      <p>La Poste Tunisienne   </p>
+    <p>Copyright©</p>
+     </div>
+    </div>
+   </div>
+  </div>
+      
+   </body>
+ </HTML>  
+  
+  
